@@ -15,6 +15,8 @@ with open(classesFile, 'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 
 #constructing the net, first import config and weights
+#yolov3.weights and config is not included in my repository
+#it can be downloaded from YOLO website
 modelConfiguration = 'yolov3.cfg'
 modelWeights = 'yolov3.weights'
 
